@@ -14,7 +14,7 @@
 ```
 {
     "usingComponents": {
-        "custom": "/components/custom/custom"
+        "contrast-tool": "contrast-tool"
     }
 }
 
@@ -31,11 +31,11 @@
 
 ```
 <template>
-    <ContrastTool/>
+    <contrast-tool/>
 </template>
 
 <script>
-import ContrastTool from './contrast-tool/index';
+import ContrastTool from 'contrast-tool/src/index';
 
 export default {
     components: {
