@@ -5,15 +5,20 @@
 ### Usage
 
 1、进入小程序根目录
+
 2、npm install contrast-tool // 安装比对工具组件
+
 3、以pages/home/home为例，配置其对应的home.json
+
 ```
 {
     "usingComponents": {
         "custom": "/components/custom/custom"
     }
 }
+
 ```
+
 4、至此，在home页面的swan文件中，就可以像使用基础组件一样使用自定义组件（contrast-tool）
 
 ### Tips
