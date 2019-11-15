@@ -1,0 +1,22 @@
+{
+  "name": "contrast-tool",
+  "version": "1.0.0",
+  "description": "Baidu smartapp contrast-tool component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanwayHwang/contrast-tool.git"
+  },
+  "keywords": [
+    "contrast-tool"
+  ],
+  "author": "huangzhenwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeanwayHwang/contrast-tool/issues"
+  },
+  "homepage": "https://github.com/JeanwayHwang/contrast-tool#readme"
+}

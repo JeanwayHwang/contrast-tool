@@ -1,0 +1,15 @@
+<view>
+    <movable-area class="movable-area" s-if="refrenceImg">
+        <movable-view class="movable-view" x="{=x=}" y="{=y=}" damping="80" out-of-bounds="true" direction="all" disabled="{{!movable}}">
+            <image class="design-img" mode="widthFix" bindload="imgLoaded" src="{{refrenceImg}}" style="opacity:{{opacity}};height:{{designImgHei + 'px'}}"></image>
+        </movable-view>
+    </movable-area>
+    <view class="control-wrap">
+        <view class="item" bindtap="openRefrence">视觉稿</view>
+        <view class="item" bindtap="fixedRefrence">{{movable ? '锁定' : '解锁'}}</view>
+        <view class="item" bindtap="resetRefrence">复位</view>
+        <view class="slider-wrap">
+            <slider class="slider" min="0" max="100" value="50" block-size="12" activeColor="#8FB1FF" bindchanging="changingOpacity" block-color="#6895FF" backgroundColor="#fff" show-value></slider>
+        </view>
+    </view>
+</view>
