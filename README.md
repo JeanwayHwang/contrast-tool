@@ -2,6 +2,12 @@
 
 > 百度智能小程序视觉稿比对调试工具
 
+
+### Preview
+
+<img src="https://github.com/JeanwayHwang/contrast-tool/blob/master/asset/preview.png" width="400" alt="工具使用预览">
+
+
 ### Usage
 
 
