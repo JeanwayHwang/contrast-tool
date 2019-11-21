@@ -7,7 +7,7 @@
 
 1、进入小程序根目录
 
-2、npm install contrast-tool // 安装比对工具组件
+2、npm install contrast-tool -D // 安装比对工具组件
 
 3、以pages/home/home为例，配置其对应的home.json
 
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import ContrastTool from 'contrast-tool/src/index';
+import ContrastTool from 'contrast-tool';
 
 export default {
     components: {
