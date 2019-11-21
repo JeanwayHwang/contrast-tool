@@ -1,6 +1,6 @@
 {
   "name": "contrast-tool",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Baidu smartapp contrast-tool component",
   "main": "index.js",
   "scripts": {
