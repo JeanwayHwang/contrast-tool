@@ -5,8 +5,7 @@
 
 ### Preview
 
-<img src="https://github.com/JeanwayHwang/contrast-tool/blob/master/asset/preview.png" width="400" alt="工具使用预览">
-
+![工具使用预览](https://github.com/JeanwayHwang/contrast-tool/blob/master/asset/preview.png)
 
 ### Usage
 
