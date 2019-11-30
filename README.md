@@ -8,8 +8,11 @@
 现有功能：
 
 1、上传视觉稿
+
 2、固定视觉稿
+
 3、复位、上下移动视觉稿
+
 4、调整视觉稿透明度
 
 ![工具使用预览](https://github.com/JeanwayHwang/contrast-tool/blob/master/asset/preview.png)
