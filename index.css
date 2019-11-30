@@ -28,20 +28,29 @@
 }
 .control-wrap .item {
     display: block;
-    padding: 0 18.12rpx;
-    line-height: 48.31rpx;
-    height: 48.31rpx;
+    padding: 0 16rpx;
+    line-height: 44rpx;
+    height: 44rpx;
     color: #fff;
     font-size: 21.74rpx;
     background-color: #009ad6;
     border-radius: 30.19rpx;
     margin-left: 18.12rpx;
 }
+.control-wrap .circle{
+    width: 44rpx;
+    height: 44rpx;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44rpx;
+    font-size: 26rpx;
+}
 .control-wrap .slider-wrap {
     position: absolute;
     right: 0;
     top: 0;
-    width: 422.71rpx;
+    width: 310rpx;
     background-color: #fff;
 }
 .control-wrap .slider-wrap .slider {

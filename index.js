@@ -6,7 +6,8 @@ Component({
         opacity: .5,
         designImgHei: 0,
         movable: true,
-        refrenceImg: ''
+        refrenceImg: '',
+        timer: null
     },
     methods: {
         imgLoaded: function(e){
@@ -48,6 +49,26 @@ Component({
             this.setData({
                 x: 0,
                 y: 0
+            });
+        },
+        moveCallback: function(e){
+            let self = this;
+            clearTimeout(this.timer);
+            this.timer = null;
+            this.timer = setTimeout(function() {
+                self.setData({
+                    y: e.detail.y
+                });
+            }, 200);
+        },
+        moveUpward: function(){
+            this.setData({
+                y: this.data.y - 1 < 0 ? 0 : this.data.y - 1 
+            });
+        },
+        moveDownward: function(){
+            this.setData({
+                y: this.data.y + 1
             });
         }
     }
